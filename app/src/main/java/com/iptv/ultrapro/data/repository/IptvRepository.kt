@@ -131,6 +131,7 @@ class IptvRepository(
                 playlist.xtreamPassword ?: ""
             )
             "M3U_LOCAL" -> importM3uFromLocalUri(playlist.name, Uri.parse(playlist.sourceUrl))
+            else -> Unit
         }
     }
 
