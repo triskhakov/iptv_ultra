@@ -1,0 +1,3 @@
+-keep class com.iptv.ultrapro.data.db.** { *; }
+-dontwarn okhttp3.**
+-dontwarn okio.**
